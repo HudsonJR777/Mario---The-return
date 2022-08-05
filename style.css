@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+   width: 1369px;
+}
+
+body, html {
+   width: 100%;
+   height: 100%;
+   font-family: Rápido, sans-serif;
+}
+.bnt-main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/513997.jpg);
+    background-image: no-repeat ;
+}
+.bnt{
+   width: 200px;
+   height: 200px; 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -100px;
+   margin-left: -100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: -2px 3px 0 rgb(7, 7, 167), -4px 6px 0 blue;
+}
+
+.button:active {
+    box-shadow: inset -4px 4px blue;
+    font-size: 0.9rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
